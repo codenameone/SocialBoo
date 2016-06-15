@@ -11,14 +11,14 @@ import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
 
 /**
- * <p>Social boo shows a simple Social style application UI based on a template of the same name from
+ * <p>Social boo demonstrates a simple Social style application UI based on a template of the same name from
  * <a href="http://www.appdesignvault.com/shop/social-boo/">app design vault</a>. This demo
  * uses a somewhat outdated but still reasonable gunmetal look, it also features different UI styles when
  * running on a tablet/phone.</p>
  * <p>
  * This demo was originally developed for the old GUI builder and was adapted to use the new GUI builder in
  * this iteration. We chose to leave the original design in place "as is" since it demonstrates how deeply Codename One
- * can be customized with very few changes.
+ * can be customized with very little work.
  * </p>
  */
 public class SocialBoo {
