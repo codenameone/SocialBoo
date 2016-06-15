@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<component type="Form" name="Main" cloudDestinationProperty="Main" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Social Boo" >
+  <component type="Tabs" name="Tabs" cloudDestinationProperty="Tabs" >
+    <layoutConstraint value="Center" />
+    <custom name="titles" type="java.lang.String" array="true" dimensions="1" >
+      <str>Friends</str>
+      <str>Chats</str>
+      <str>Email</str>
+      <str>Settings</str>
+    </custom>
+    <custom name="icons" type="com.codename1.ui.Image" array="true" dimensions="1" >
+      <str>friends@2x.png</str>
+      <str>chats@2x.png</str>
+      <str>send-email@2x.png</str>
+      <str>settings@2x.png</str>
+    </custom>
+    <custom name="selectedIcons" type="com.codename1.ui.Image" array="true" dimensions="1" >
+      <str>friends@2x_sel.png</str>
+      <str>chats@2x_sel.png</str>
+      <str>send-email@2x_sel.png</str>
+      <str>settings@2x_sel.png</str>
+    </custom>
+    <component type="Container" name="friends" tabTitle="Friends" cloudDestinationProperty="friends" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="MultiButton" name="JessicaButton"  actionEvent="true" cloudDestinationProperty="MultiButton" commandName="" commandId="1" commandAction="Person" commandBack="false"  varName="" >
+        <custom name="line1" type="java.lang.String" value="Jessica" />
+        <custom name="line2" type="java.lang.String" value="14-July-2012" />
+        <custom name="line3" type="java.lang.String" value="Lorem ipsum is simply the dummy text" />
+        <custom name="line4" type="java.lang.String" value="some additional dummy text" />
+        <custom name="icon" type="com.codename1.ui.Image" value="avatar-1a.jpg" />
+        <custom name="iconUiid" type="java.lang.String" value="Avatar" />
+        <custom name="horizontalLayout" type="java.lang.Boolean" value="true" />
+        <custom name="maskName" type="java.lang.String" value="maskImage" />
+      </component>
+    </component>
+    <component type="Container" name="Container" tabTitle="Chats" cloudDestinationProperty="Container" >
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="This tab is intentionally left blank" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" tabTitle="Email" cloudDestinationProperty="Container2" >
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="So is this one" >
+      </component>
+    </component>
+    <component type="Container" name="Container3" tabTitle="Settings" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Label" >
+      </component>
+      <component type="TextField" name="TextField"  cloudBoundProperty="text" cloudDestinationProperty="TextField" text="TextField" >
+      </component>
+      <component type="Button" name="Button"  cloudDestinationProperty="Button" text="Button" >
+      </component>
+      <component type="Button" name="Button1"  cloudDestinationProperty="Button1" uiid="GreenButton" text="Button1" >
+      </component>
+      <component type="Button" name="Button2"  cloudDestinationProperty="Button2" uiid="RedButton" text="Button2" >
+      </component>
+      <component type="Container" name="Container4" cloudDestinationProperty="Container4" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+        <component type="Button" name="Button11"  cloudDestinationProperty="Button11" uiid="GreenButton" text="Button1" >
+        </component>
+        <component type="Button" name="Button21"  cloudDestinationProperty="Button21" uiid="RedButton" text="Button2" >
+        </component>
+      </component>
+      <component type="Slider" name="Slider"  cloudDestinationProperty="Slider" text="" editable="true" thumbImage="slider-cap@2x.png" >
+      </component>
+    </component>
+  </component>
+</component>

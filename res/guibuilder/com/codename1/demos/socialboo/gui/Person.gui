@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<component type="Form" name="Person" cloudDestinationProperty="Person" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Name" >
+  <component type="Container" name="personRootPanel" cloudDestinationProperty="personRootPanel" uiid="PersonPanel" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="DataSheet" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="Container" name="Container9" cloudDestinationProperty="Container9" >
+        <layoutConstraint value="West" />
+        <component type="Label" name="avatar" cloudDestinationProperty="avatar" uiid="Avatar" text="" icon="avatar-1b.jpg" >
+          <custom name="maskName" type="java.lang.String" value="largeMaskImage" />
+        </component>
+      </component>
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+        <layoutConstraint value="Center" />
+        <component type="Label" name="personName" cloudDestinationProperty="personName" text="Jessica White" >
+        </component>
+        <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="GrayLabel" text="San Antonio, Texas" icon="location@2x.png" >
+        </component>
+        <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+          <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="3" >
+            <component type="Container" name="Container6" cloudDestinationProperty="Container6" uiid="Followers" layout="BoxLayout" boxLayoutAxis="Y" >
+              <component type="Label" name="Label3" cloudDestinationProperty="Label3" uiid="FollowTitle" text="10" >
+              </component>
+              <component type="Label" name="Label2" cloudDestinationProperty="Label2" uiid="FollowText" text="followers" >
+              </component>
+            </component>
+            <component type="Container" name="Container5" cloudDestinationProperty="Container5" uiid="Following" layout="BoxLayout" boxLayoutAxis="Y" >
+              <component type="Label" name="Label5" cloudDestinationProperty="Label5" uiid="FollowTitle" text="35" >
+              </component>
+              <component type="Label" name="Label4" cloudDestinationProperty="Label4" uiid="FollowText" text="following" >
+              </component>
+            </component>
+            <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="Updates" layout="BoxLayout" boxLayoutAxis="Y" >
+              <component type="Label" name="Label7" cloudDestinationProperty="Label7" uiid="FollowTitle" text="400" >
+              </component>
+              <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="FollowText" text="updates" >
+              </component>
+            </component>
+          </component>
+        </component>
+      </component>
+    </component>
+    <component type="Container" name="Container7" cloudDestinationProperty="Container7" layout="TableLayout" tableLayoutRows="9" tableLayoutColumns="2" >
+      <component type="Label" name="Label8" cloudDestinationProperty="Label8" uiid="TableTitleLabel" text="Joined" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="38" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="Label" name="Label9" cloudDestinationProperty="Label9" uiid="TableValueLabel" text="2 years ago" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="62" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="Label" name="Label11" cloudDestinationProperty="Label11" uiid="Line" text=" " >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="2" valign="-1" spanVertical="1" />
+      </component>
+      <component type="Label" name="Label10" cloudDestinationProperty="Label10" uiid="TableTitleLabel" text="Bio" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextArea" name="TextArea"  actionEvent="true" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TableValueLabel" text="Released two albums about to release another one" editable="false" columns="10" >
+      </component>
+      <component type="Label" name="Label111" cloudDestinationProperty="Label111" uiid="Line" text=" " >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="2" valign="-1" spanVertical="1" />
+      </component>
+      <component type="Label" name="Label12" cloudDestinationProperty="Label12" uiid="TableTitleLabel" text="Web" >
+      </component>
+      <component type="Button" name="Button"  actionEvent="true" cloudDestinationProperty="Button" commandName="http://www.codenameone.com/" commandId="2" commandAction="$Execute" commandArgument="http://www.codenameone.com/" commandBack="false"  varName="Command0" uiid="Link" text="http://www.codenameone.com/" >
+      </component>
+      <component type="Label" name="Label1111" cloudDestinationProperty="Label1111" uiid="Line" text=" " >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="2" valign="-1" spanVertical="1" />
+      </component>
+      <component type="Label" name="Label14" cloudDestinationProperty="Label14" uiid="TableTitleLabel" text="Friends" >
+      </component>
+      <component type="Container" name="Container8" cloudDestinationProperty="Container8" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Label" name="Label15" cloudDestinationProperty="Label15" uiid="Avatar" text="" icon="avatar-2a.jpg" >
+          <custom name="maskName" type="java.lang.String" value="maskImage" />
+        </component>
+        <component type="Label" name="Label16" cloudDestinationProperty="Label16" uiid="Avatar" text="" icon="avatar-3a.jpg" >
+          <custom name="maskName" type="java.lang.String" value="maskImage" />
+        </component>
+        <component type="Label" name="Label17" cloudDestinationProperty="Label17" uiid="Avatar" text="" icon="avatar-4a.jpg" >
+          <custom name="maskName" type="java.lang.String" value="maskImage" />
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

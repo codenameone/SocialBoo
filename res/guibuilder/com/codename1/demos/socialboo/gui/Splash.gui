@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Splash" cloudDestinationProperty="Splash" uiid="Splash" layout="BorderLayout" borderLayoutAbsoluteCenter="false" nextForm="Main" title="Loading..." >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="SplashLayer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="LogoLabel" text="" icon="SplashLogo.png" >
+    </component>
+  </component>
+</component>
